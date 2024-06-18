@@ -1,0 +1,192 @@
+ 计算机科学技术专业毕设和论文的问答
+ 国家教育部2020年12月印发了《本科毕业论文（设计）抽检办法（试行）》的通知，（教督〔2020〕5号），之后各地教育部门几年开始逐渐加强对本科生毕业论文的管理。高校授予学士学位的本科论文不仅要通过知网查重审核，还对所有论文采用了挂网盲审的方式，并安排专家抽查，专家对论文评价的方面包括：选题意义、写作安排、逻辑结构、专业能力以及学术规范等，重点是判断论文的 “合格性” ！[1]
+ 若涉嫌存在抄袭、剽窃、伪造、篡改、买卖、代写等学术不端行为的毕业论文，教育部门会依法核实，并对作者撤销已授予学位，并注销其学位证书。[1]
+ 学校当前要求本科论文的文献综述部分为3千字，论文总体1万字，为了让三年级本科生尽早进入写论文的状态，特编写本程序用以动态发布我和学生在交流毕业设计和论文的沟通和对话，由多位学生从自己的视角表述，整理成为文本，预计 1 万字左右，供广大学生学习，可以理解消化后引用 ！
+1. 毕业论文（设计）的目的和意义
+ 在此我引用导师对毕业论文（设计）的目标要求：“要求学生综合运用本科阶段学习的计算机科学技术知识，尤其是程序设计和软件工程领域学习的方法、训练的代码能力，架构自己感兴趣的技术路线，结合自己探求的问题形成软件需求，然后有条理第系统落实分析问题、建立模型、软件设计、系统实施、测试调试的等传统软件工程的全部的流程。践行毕业设计，总结开发文档撰写论文，践行二者的有机结合，从而在实践和理论二个维度训练学生专业的计算思维和工程思维。”
+1.1 明确毕业论文和毕业设计的关系
+ 学校通用的毕业论文（设计）管理手册，手册上的表述是“毕业论文（设计）” ，从字面上看是以毕业论文为主，毕业设计作品没有做硬性要求。而我认为这对于以软件开发为方向的毕设模式描述不太准确，因为我们一般是先要做出毕设软件，然后才可总结写出毕业论文。
+ 为明确本专业的毕设和论文的关系，我们把“毕业论文（设计）”的文字表述，明确改为“毕业设计/论文”的文字，这种定义明确了论文的前提是设计（也即学生开发的软件作品），而设计的文档总结和理论提升则成为了论文，下文我们都采用这样的“毕业设计/论文”方式的表述。
+ 另外，在计算机专业软件开发的毕业论文中，可以插入截图配合文本，以演示软件的效果证明真实性，还可以在论文中直接提供网址（甚至二维码），让阅读者可以访问和使用毕设作品。用这种方式既可以证明论文的文字阐述的可信度，这也应该是本专业论文的特色，我想纯粹依靠文本表述的论文很难有这个优势。
+1.2 对毕业设计/论文内涵和意义理解
+ 我们作为计算机科学技术专业的本科生，在即将完成学业之际，的确很必要设计开发一个本专业的作品，来回顾总结本学科专业学习的知识系统，梳理课程体系最核心的东西，体现我们的真实能力。
+ 在我的毕业设计中，涉及的有关核心课程的理论包括：面向对象的程序设计语言、数据结构和算法、操作系统、软件工程等。以前这些核心课程供理论指导感觉非常抽象，加之基本上以理论知识为主，因此学完后我们感觉一直有所缺憾，本人与导师沟通后也一致认为，若能在实践层面应用这些核心课程的关键知识，则必然会在理解和技术二个维度提升自己的专业性。
+ 因此，我认为毕业设计的内涵就是大学理论的学习在实践层面做一次综合演练和总结，期间也需要要配合学习当前最新的一些流行技术，在以形成自己对计算机软硬件体系的系统而专业的理解后，再总结撰写毕业论文，这既是毕业论文的内涵。
+ 深刻理解计算机系统（computing system）对我们专业开发者而言，是非常重要的，这也是我们即将成为建设国家现代化的工程师不同于与其他专业的人的特色，从其他专业眼中看来，我们是计算机专业的，我们对计算机系统的理解一定不是浮于表面的，而是尽量要更加接近计算机的本质，对任何技术的理解则是能接近技术的底层和基本原理。
+1.3 毕业设计/论文和个人专业成长关系
+ 毕业设计/论文是本科教育的重要环节，其综合性和个性化都很强，对提升本科生的各项能力意义很大。我们可以从个人成长的高度和意义来做好这个环节的方方面面，为了具有时代感，我结合国家实现中国式现代化的目标来写，从教育人才的高度来理解教育部和学校的这项规划。还是引用导师李教授的观点：毕设任务开始后，本科生要尽早从自身需要出发主动规划，让设计/论文成为自己主动学习和自我教育的最后一战。围绕本专业的目标，选择好自己的方向和技术路线，在导师的指导下，成长为本专业的“四有人才”：1、具有现代工程思维的工程师；2、掌握现代数字工具的人；3、具有国际视野能自主学习的学习者；4、兼具人文情怀全面发展的人。第1，2点素质主要支撑毕设的开发，而第3，4点主要支撑论文协作，写到这里，也许是我更能明白本科生为什么要经历查资料、写论文、开组会、答辩了。
+ 我想此次毕业之作（设计/论文）任重道远，如何积极地甚至愉快地走完这条漫长而兼具不确定性的征途？ 我思考这个问题良久，得出结论：为了少走弯路，亲手实践（构建代码），广泛阅读（文献文档查阅），乐于总结（撰写文档）是正确走好这段路程的行为范式。任何事情其付出和回报是对等的，坚持这个行为范式，日积月累，我们必须成长起来！
+ 希望通过这一年的学习研究，我或能开启教授常提到的本专业的计算思维和代码能力，也体验到个人能力成长的快乐。
+2. 毕业设计/论文的路线规划和研究方法
+ 磨刀不误砍柴功，要落实好做毕业设计、写通毕业论文，做好规划和选择技术路线是这项系统工程的顶层设计，本节从路径规划、技术路线、研究方法分别阐述和分析。
+2.1 实现目标的路径规划
+ 我的毕设分为二个阶段完成，首先选择一条自己感兴趣的技术实践路线，把核心的技术加以整合学习，以导师的案例项目为参考，主要是理解好各个技术之间的关系，在项目中的作用和分工，更重要的是在项目实施中提升自己的写高质量的代码能力。
+ 当仿造导师的案例的技术基本实现后，则可以视为实践和理论基本打通，此时就可进入第二个阶段，开始真正做自己的毕设软件。
+ 第二阶段一般按软件工程的标准来规范开发：1、结合自己的问题做出定义和分析；2、设计一套合适的技术解决方案；3、按解决方案设计流程和编写相关代码，实现技术部署；4、调试代码、测试软件、性能调优。其中第3、4步可以发现前面步骤的问题，因此可能会在第2，3，4步多次循环，发现和解决第2步的设计失误或第3步的代码错误。当然大部分工作是用在第3步的构建代码体系和落实软件架构的具体实施和细节。[4]
+ 本科毕设与个人开发者类似，项目的设计和具体实现都没有经验丰富的团队，很多时候为了提高效率，方案设计的细化优化和写代码具体部署二个步骤其实是交替进行的。前者是工程师落实微观和细节层面，而后者则是设计师的工作，确保宏观层面的设计不偏离需求。
+ 在开发期间可以产生大量开发文档，对这些文档做一个总结，再结合本专业的理论就可形成自己的论文，这个实现路径学生可以用实践来驱动对理论理解，进而加深本科期间学习的理论的真实体会。从实践升华到理论，再用理论实现最佳实践！
+2.2 毕设的技术路线规划
+ 所谓技术路线特指从事理工科的人们为实现复杂的工程而制定的计划或规划，技术二字强调的是专业性，一般用本专业或行业的术语表达，而路线二字则强调逻辑性，一般表达了事物的因果关系或层次关系，我们常用技术路线来证明工程项目或研究的可行性。
+2.2.1 抬头看路，大方向的选择
+原文：[4] p11
+COMPUTER SCIENCE AS A DISCIPLINE 
+With the invention of computers, a new discipline has evolved: computer science. Like any other discipline, computer science has now divided into several areas. We can divide these areas into two broad categories: systems areas and applications areas. Systems areas cover those areas that directly related to the creation of hardware and software, such as computer architecture, computer networking, security issues, operating systems, algorithms, programming  languages, and software engineering. Applications areas cover those that are related to the use of computers, such as databases and artificial intelligence. 
+计算机科学与技术研究的内容非常丰富，可以说是一个大学科，包含许多专业，我从本科的课程体系总结。以我有限的时间和能力，如果没有做好具体技术路线选择，就可能会在自己不懂或不感兴趣的浩瀚技术海洋中被逐渐消磨学习热情，事倍功半。方向的选择就如人生选择那样重要。我大致把CS专业的方向大致分了三种：一是研究计算机硬件体系的架构，这种方向底层接近微电子数字电路和芯片研究，本科阶段还可以从嵌入式软件硬件开发角度学习，这对学习资源的要求较高，我虽有兴趣，但无此特长和条件。二是研究系统软件的体系和架构和管理，这种方向需要深入操作系统的体系架构和网络，我对此也很有兴趣，但或许由于社会需求对此并不太大，所以在这个方向，我仅作必要的学习和理解。三则是我选择的研究应用软件的开发方向，这不仅是因为国家和社会方方面面的对此类各层次的人才的需求非常大，也是因为我理解自己本人作为一般的本科生，水平和经验有限，更喜欢研究具体的问题，也更愿意从发现问题、分析问题再到解决问题，这个相对直观的思维来学习和实践。
+不管是哪个方向，写文档还是要从发现问题，到分析问题再到解决问题这个思路来写，在实践中却不能盲从这个思路，本专业的学生应该把大部分时间和精力落实到学习和应用技术上来，确切的说需要整合多项技术和技能，基于自己的代码能力来寻找问题进而分析和分解解题。对普通学生而言，由于抽象能力和逻辑能力还刚刚建立不久，切记不能随心所欲理想地去追踪社会热点问题，也不能分析问题时脱离自己的技术能力。主要是学会立足自己当下的能力，做好规划，选择自己可以做好的项目，在实践中不断提升能力，同时在实践中应用好本方向的核心课程一些基础理论和方法，总结出来的论文才会有一定的深度。
+2.2.2 Web应用开发的技术路线
+我虽然选择了应用软件开发的方向，但这个方向的内涵还是非常丰富，也是非常庞杂的，比如说用于写代码的现代高级计算机语言，常见的就不下十几种，而且每种都是博大精深独具自己特色的，他们在擅长领域都有一席之地，有的专攻Android手机平台、有的专门支持苹果的IOS平台、还有的仅仅适用于window桌面系统，当然还有用于一些大型机构使用UNIX/Linux平台的软件开发。现代计算机的种类多样，现代移动端设备的多样化，运行的操作系统也是同样是如此复杂，因此我们提出的第一个问题就是：软件无论是开发还是运行能否做到跨硬件跨系统 ？下面简称跨平台 ，人人都承认人的时间是最珍贵的，也就说：开发者能否写一套通用的代码，就可以直接在所有的硬件和操作系统上运行？就像圣经故事里的巴别塔，代码就是计算机世界里的语言通用的语言。当然肯定不是我第一个提出这个问题的，这个理想其实就是是改变互联网世界的Web标准，Web之父（Tim）在发明Web的基本技术架构以后，成立了W3C组织，[2]该组织在2010年后推出的HTML5国际标准，结合欧洲ECMA组织维护的ECMAScript国际标准，几乎完美缔造了全球开发者实现开发平台统一的理想，直到今天，这帮科学家与Web行业也还一直在致力于完善这个伟大而光荣的理想。学习Web标准和Web技术，学习编写Web程序和应用有关工具，最终架构一套高质量代码的跨平台运行的应用，这就是我所谓的Web应用开发的技术路线。
+2.2.2 支撑技术路线的内功
+有了标准，效果却因人而不同，开发者的内功还是体现在高质量的代码能力上，我简单地可以理解践行这条技术路线，其实就是打造修炼我的高质量代码能力之路，分三个层次：
+一是对计算机硬件和操作系统的理解和运用能力，我们写的代码本质上都会是运行在操作系统之上，而操作系统又直接对接硬件，在不影响开发效率前提下，让自己的代码架构在偏底层，则会更好地锻炼我们的对系统的掌控能力，提升应用软件的性能，减小消耗，也越可能使自己的代码为他人所用。Web应用（Web Application）由于基于HTML5国际标准，自2009年谷歌开源其V8引擎以来，现代现代浏览器纷纷学习演化，具有跨平台特性和极高性能，已经广泛地存在于移动互联网时代的各类设备之中，从Web应用的开发者角度看，现代操作系统其实就是操作系统的延申，我们也见证了这十几年Web为应用软件插上了腾飞的翅膀。
+为了简单起见，我们可以把互联网看作一个更大平台计算系统，Web应用为互联网而生，因此这条技术路线让我的毕业设计可以很方便对接互联网络，当然也可极低成本在互联网上运行（完全可以包含在我的上网的网费里），不受时空限制，这是软件开发其他方向没法对比的。
+二是面向对象（OOP）计算机语言的运用和构建代码的能力。几乎所有的现代计算机语言都是OOP语言，Web应用（Web Application）方向的程序设计语言则是流行的JavaScript，其国际标准则是著名的ECMAScript，其强大和简洁的OOP能力极具表达力，加上其函数式（Functional）编程的特性，让我们稍加学习，就可以对Web应用的异步事件处理写出符合自己思路的程序来，解决异步响应问题让我有很强的满足感，因此选择这个语言对普通开发者非常友好。另外，HTML和CSS也是本次毕设开发要用到的较为次要的语言，我更多是综合这三个语言，在几个层面践行MVC设计模式，体验了伟大的W3C前辈们努力推行的HTML5平台的开发思想，比如用HTML用于建立应用的模型（Model），用CSS设计应用的外观渲染层（View），用JS开发应用的控制行为层（Controller），当深入JS面向对象开发之后，为组织代码的更精细和微观的MVC模式也需要多次运用。[7]
+三是对软件工程的理解和软件开发过程和版本的控制能力。近些年国家层面加大了一些大工程规划建设，我突然感觉“工程”二字变得高尚神圣起来，本专业虽然也有一门软件工程的课，但似乎由于本科生学得太早，无法理解成年人跨界合作的世界，因此感觉还没有领悟到工程的要义。而本次毕设选择Web方向，其原生的开源理念，配合上Git这个现代版本管理工具，不仅让我们的代码有了自由的意义，也为大的程序增加了时间的维度的控制，配合Github的远程代码仓库的分享后，自此代码不再是一个个人的事，工程的内涵二字才变得生动而有意义。
+在毕设的后半个阶段和论文的编写中，我们运用传统的软件工程的ADIT（Analysis、Design、Implementation、Testing）开发模式（其实也是多人合作的管理）才不至于流于形式，尤其是在我们引入和运用现代开源思想下诞生的Git工具后，因为可以便捷分享和学习他人的优秀代码，软件开发写代码转变成为人和人之间的学习、人与人之间的合作，软件工程的原则和代码规范对低年级本科生就像一堆空洞的文字堆砌，在毕设后也变得鲜活起来。
+这条毕业设计/论文之路和技术路线看似艰难，但我发现在学习完成几个技术后，不但我对自己代码能力和计算机底层的理解更加自信，而且我感觉对宏观需求问题看得更加清楚了，还发分析问题能力也比之前高了不少，这也说明普通本科生在技术还较弱时，不要急于照搬书本，先忙于分析问题和需求，而是在毕业设计中首先要完善技术的学习，规划好比较具体的技术路线。
+2.3 研究方法
+我遗憾地发现有一些人在自己的领域学了十几年，却可能还没有意识到自己学习方法不对，导致事倍功半！其实不管是在哪个领域学习研究，其学习方法很多是相通的，方法可以互相借鉴的。
+我们可以拿学习方法来类比研究方法，普通本科生一般对研究方法感觉比较抽象，其实不管我们研究什么领域，研究方法也是相通的，下面阐述对本专业的研究方法的浅显的理解。
+2.3.1 文献法
+在和导师沟通后，我对文献法的理解可以用一句话表达，即：“利用前人的文字深入学习总结和研究本领域的知识和技术的方法”，对于我们Web应用方向的学子而言，在自己代码能力成长的任何阶段，我们无法离开文献法，然而承载知识的媒体形式非常丰富，包括：书籍、在线文档、社区论坛、期刊、会议报告等等，我的毕业设计的Web应用技术方向的资料来源有下面几类：
+一是被中国IT领域诙谐地取名为“衣冠禽兽”：“ O’Reilly Media ”、“ Manning Publications”，这二大著名的出版集团出版了大量经典计算机科学技术书籍，全球开发者也把有大量自己私藏的这类书籍以电子文件的形式，广泛地发布在互联网络的各个开发者社区，有些书籍对我这个穷学生而言真是价值不菲，当然这些书全部都是英文原版，在这个知识开源的时代，我想原书作者也应该能原谅一个发展中国家的普通本科生免费看他的书吧，记得鲁迅笔下的孔乙己说“窃书不能算偷，哎，读书人的事……”；
+二是在线文档和社区论坛的文章，主要是W3C国际组织的Web标准和Mozilla基金会的MDN文档网站，二者分别站在科学家和工程师的二个层次，都有二十多年的积累和知识沉淀，他们在线上发表了大量公开文档，描绘了Web的过去、现在、将来。W3C主要以Web国际标准和最佳实践为主，而MDN则偏向Web的最佳实践和各从层面应用的教学和讨论；[8]
+三是则国人用得最多的知网平台，在这里主要可以学习写论文的规范、了解我选择的毕设选题他人在理论上的研究和探索，对本科生而言可提供理论的指导和展示学术的规范，但对于梦想成为开发者的本科生而言，这些文章对于我们毕设的软件开发能力（高质量代码能力）的意义不大，但对毕业论文还是很有参考价值的。当然，文字材料还有其他的来源，在线信息如此丰富，也是因为我们的Web技术广泛而又深刻地应用在Internet上，让知识可以跨越国界、跨越种族、跨越阶层，感谢开创和应用Web的前辈们把人们带向光明，在此就不一一枚举了。
+2.3.2 模型研究法
+对于写代码的本科生，必须擅长使用的另一种研究方法就是“模型研究法”。这个研究方法非常具体，也很有意思，其给人的快乐甚至可以与打游戏对比。比如承载我们Web应用的台式机、笔记本、手机、平板，传递在线信息要用到的互联网、服务器，沟通硬件和我们的代码之间的操作系统、浏览器、代码编辑器、编译器，这些软硬件对象，对我们而言，都值得从写代码的角度去研究，我们笼统地称它们为对象，这些对象最终会在我们大脑中就会被理解为抽象的模型，我们再通过分析把这些模型程序化、数据化，最后写出代码来，这种行为本质上就是先在思维上“建模”，再用OOP语言表述出来。
+在OOP分析和开发过程中，我在毕设中试图解决的问题，也被定义成为了各级各种模型。模型研究只是更为抽象，与具体的计算机语言无关，在毕设中我也尝试使用国际标准UML（Unified Modeling Language）语言来建立抽象模型。我感觉采用UML模型研究法和面向对象的程序设计方法的目标是一致的，只是在不同层面分析表述问题而已。[5] 因此采用模型研究法，我的毕设再用例设计采用了类似的UML对问题建模，景观UML比较抽象，设计准确有一定难度，而使用OOP程序对画好的模型开展程序设计则更为具体直观，通过熟悉的OOP语言和代码运行环境运行和调试模型，我们甚至可以倒推出模型设计的问题和缺陷。我个人的观点是对于本科生而言，可能直接写代码建立模型研究模型，代码跑通后，再利用UML语言绘制模型，作为代码的文档资料则更合理。毕竟本科生在思维上还很稚嫩，无法比拟高级程序员乃至系统架构师那样的抽象能力和丰富的经验。
+2.3.3 其他会误解的研究方法
+有些同学还可能会用到案例法，顾名思义以调查研究具体案例为主，这种研究方法对于管理类专业很合适，或许软件的产品经理方向可以深入调研一个软件产品，而使用这种方法。但案例法对计算机的软件开发方向，又是且以技术为主选题不太合适，
+还有些同学会想到实验法，认为我们要做程序运行或软件的实验，其实这是一种误解，实验法一般是指医学类科研，用来对比不同的实验数据和对象的研究方法，我们的程序和代码其实是模拟现实世界某些对象的模型。
+最后所谓的实践法也不存在，实践不是研究方法，实践是针对理论和验证理论的行为，我们所有的计算科学和计算技术的应用都必须落实到实践中来，在实践中才能验证我们写的代码或构建的系统是否有效？是否高效？当然，计算科学家对有关理论和数学的纯粹研究不需要实践。
+3.构建Web应用开发的技术栈
+ 学习命令行实现高效地文件管理、探索网络的命令行工具，在此基础上学习Git，实现对现代开源的版本管理工具Git的理解和基本控制。
+3.1 命令行和GitBash
+未完待续
+3.1.1 Command Line（CLI）
+未完待续
+3.1.2 Bash和类Unix的OS环境
+未完待续
+3.1.3 Git和GitHub
+未完待续
+3.1.4 利用Github建立自己的http服务器
+未完待续
+3.2 Web客户端程序的运行环境
+未完待续
+3.2.1 现代浏览器是理想的跨平台的代码运行环境
+原文：[7] p5
+ According to http://gs.statcounter.com, the most popular browsers for computers are Google Chrome, Microsoft’s browsers (Microsoft Edge and Internet Explorer), and Mozilla2 Firefox, with Google Chrome at #1. Other browsers are Safari (for Mac devices), Opera, and Android’s default browser. Safari and Android are particularly popular with mobile devices.
+
+
+3.2.2 现代桌面浏览器的Console工具
+未完待续
+3.2.3 DOM模型和Web Application前端渲染（CSS，JS）机制
+原文：[7] p322
+The Document Object Model, which is normally referred to as the DOM, models all of the parts of a web page document as nodes in a node tree. A node tree is similar to a directory tree, except instead of showing directories that include other directories (and files), it shows web page elements that include other elements (and text and attributes). Each node represents either (1) an element, (2) a text item that appears between an element’s start and end tags, or (3) an attribute within one of the elements.
+With objects that are built into the DOM, like the document object , you don’t have to create the objects yourself. Behind the scenes, when you load a web page, the JavaScript engine creates an object for every element on the web page (as well as for every attribute within the elements and for every text item between the element tags).
+原文：[7] p74
+The W3C’s philosophy in terms of how HTML and CSS should fit together is (1) use HTML elements to specify a web page’s content, and (2) use CSS to specify a web page’s appearance. There are lots and lots of CSS properties that enable you to determine a web page’s appearance.
+
+
+3.2.4 用MVC设计模式理解Web三大国际标准的分工
+
+未完待续
+3.3 面向对象的现代序设计语言
+原文：[7] p500-501
+In the 1970s, the designers of the SmallTalk programming language addressed this convoluted-code problem by coining the term object-oriented programming and making it a core part of their new programming language.
+The goal of the OOP paradigm is to have programs model how regular people think about a problem and its solution. When thinking about a problem, people tend to focus on the things that make up the problem. With OOP, those things are called objects. Usually, they’re physical entities, but they can also be conceptual entities. As an OOP programmer, once you have identified the things you want to model, you identify their basic properties and behaviors. You group each thing’s properties and behaviors together into a coherent structure called an object. In writing an OOP program, you define objects, create them, and have them interact with each other.
+One of the cornerstone features of OOP is encapsulation. In general, encapsulation is when something is wrapped up inside a protective covering. When applied to objects, encapsulation means that an object’s data is protected by being hidden inside the object. With hidden data, the rest of the program cannot access an object’s data directly; the rest of the program relies on the object’s methods to access the data. Accessing an object’s data refers either to reading the data or to modifying it. Assuming that an object’s methods are well written, the methods ensure that data is accessed in an appropriate manner. By limiting access to “appropriate” access, that makes it harder to mess up a program’s data, and that leads to fewer bugs. 
+
+为驯服JavaScript这头函数式面向对象的现代语言，熟悉这门现代OOP语言的一些重要机制，我们在写毕设项目前，特编写了三个案例：testAnimation 、testHttp 、testPerformance 。
+3.3.1 数据类型和数据结构
+未完待续
+3.3.2 函数和作用域
+未完待续
+3.3.3 对象、实例、继承
+未完待续
+3.3.4 DOM的事件驱动的异步代码技术
+
+3.3.5 图像、音视频对象的的Web API
+未完待续
+3.3.6 互联网的本质和Web服务
+原文：[6] p164
+“The Internet only provides packet transport; all other services run in hosts that attach to the Internet.”
+Keeping services separate from the packet delivery mechanism was a stroke of genius. At the time the Internet was designed, the largest communication system in the world, the telephone system, had taken the opposite approach. Telephones were incredibly basic devices. All the intelligence was built into the switches that formed the telephone network. Engineers called the phone “dumb” and switches “smart.” Many networking researchers assumed the same design would be used to build computer networks. However, the Internet designers foresaw a better approach in which the network only provided packet delivery and all the intelligence was placed in hosts that connected to the network.
+[6] p164我的综述：
+互联网本质上只提供包传送服务，所有在互联网上的其他服务都只是运行在联网的计算机内的程序而已，而不管那些服务是多么复杂的电子商务服务或未来的虚拟现实元宇宙。
+让互联网的服务与底层的包传送机制无关，这个设计是成就互联网的神来之笔。在人们最初设计互联网时，全球最大的通讯系统是电话网络，电话网络的服务设计其实与互联网完全相反，电话作为最底层通讯设备，其他上层智能的服务都建立在电话交换机中，而这些电话交换机则组成了电话网络的基础，工程师通常把电话机称为“傻子设备”而把交换机称为“智能设备”，当然这种设计让基于电话网络的增值服务成本极高，也难以设计新的服务。本来行业内的人认为计算机网络也会走互联网的老路，但是，互联网的设计者创新了一套新的设计，也就是网络本身仅提供包传送，而其他服务是运行在联网的主机内部的通讯程序，这些程序的底层必须使用互联网的包传送机制实现沟通。
+原文：[6] p164
+The Internet’s flexibility has enabled new services to appear and old services to disappear without any change to the Internet itself. For example, the World Wide Web wasn’t around when the Internet was invented. In fact, those of us who participated in Internet research had used the Internet for ten years before the World Wide Web was invented. Interestingly, the Internet did not need to change to accommodate the Web because web sites consist of software that runs in hosts, not in the network. Similarly, browsers that access web sites run in user’s devices, not inside the Internet.
+[6] p164我的综述：
+互联网的这套机制让互联网服务设计显得非常灵活，我们可以不对互联网自身作任何更改，而去开创新的服务，废弃旧的服务。比如互联网诞生十多年了，而我们的Web服务还没出现，即使是研究互联网的人也不知道会有Web这么神奇的服务，更神奇的是，互联网无需作任何改变，就可以适应全球Web服务的所有需要，我们要做的只不过是一些联网的主机运行一些包含Web站点的软件而已，而这些软件可不是寄宿在互联网上的。同样，访问这些Web信息的浏览器也是运行在用户设备的软件，浏览器也不需要存放在互联网基础设施内。
+原文：[6] p165
+Communication across the Internet always occurs between a pair of apps. An app that offers a service is called a server, and an app that accesses a service is called a client.
+[6] p165我的综述：
+任何互联网的通讯都可以简单地看作二台安装了一对应用的计算机的通讯，这二个应用提供服务的一方就是服务器（server），而接受服务的一方则是客户端（client）。
+原文：[6] p207
+One of the most widely used Internet services: the World Wide Web. This chapter introduces the concept of hypermedia, and describes how documents are linked together. The next chapters explain web documents and some of the more advanced web technologies .
+Like all Internet services, the World Wide Web is not built into the Internet. Instead, the service runs on computers attached to the Internet, and follows the client server form of interaction explained in Chapter 15. Many web servers attached to the Internet store information. To access the information, a user launches a web browser.The browser acts as a client that contacts one or more servers to obtain the requested information, which it then displays for the user.
+[6] p207我的综述：
+大多数人会混用互联网和Web的概念，本节我将论述清楚这两个概念，互联网是当代的通讯基础设施，而Web是互联网最为广泛的服务，没有之一，所谓the World Wide Web，简称 Web， Web为解决人类的传统的媒体的不足，提出了超媒体（hypermedia）的概念，描述了数字文档可以如何有机链接，从而为人类提供主动灵活的咨讯服务。Web与其他的互联网服务一样，它不是直接建立在互联网基础设施之内的，而是以程序的形式运行在与互联网相连的计算机之中。这些联入网的计算机被软件控制而实现服务端和客户端模式互动。一些计算机被设定为web服务器，其中存放了人们需要的大量信息，而广大的用户的计算机则使用web浏览器来访问这些信息。因此，Web浏览器如同客户经纪人那样，会代表我们的完成所有细节工作，比如：先利用通讯协议获取信息，然后再把这些信息整理、美化后，再呈现到人们的面前。[7] p207
+原文：[6] p207
+The information on a web server is divided into web pages, and a browser fetches one page at a time. In most cases, a given web server stores a set of related pages, and we use the term web site to refer to the entire collection of pages on a server.
+[6] p207我的综述：
+web服务器内的信息一般由很多网页组成，每次访问浏览器一次获取一个文件，Web服务器都存储了相关的文件集合，我们称这些文件和页面的集合为网站。
+原文：[6] p214
+The World Wide Web, which has become the most widely used Internet service, is a hypermedia system that allows a user to follow links from one web page to another.Each web page is stored on a server, and a link can cross from one server to another.The resulting system appears to be a seamless interconnection of web pages. Each web page is identified by a URL that specifies a web server and a specific item on the server.
+World Wide Web 已经成为互联网服务最广泛的应用，这也是一套超媒体系统，允许用户用跳转链接来自主选择信息，而链接则可以跨越全球的联网计算机。最终整个Web可以看作一个无缝链接的文档资源的集合，而每个文档又可以被URL标识出来，URL由服务器和内部的文件细节表达，能做到全球唯一。
+
+4. **Web应用系统的分析与设计
+未完待续
+4.1 **需求分析
+使用英文原版的书籍学习计算机科学和技术知识，可以让学生直接对接原汁原味的材料（有趣），也可以拓宽学生的国际视野和理解科技历史的深度（有意义），更能够构建学生的真实地应用英语的语言能力（有用），为后期开发优质的代码奠定扎实的基础。
+但从教育者角度看，我国目前多数大学师资没有能力或渠道，来介绍和使用这些经典书籍，甚至没有机会获取这些书籍。从学习者角度看，大多数大学学生没有真实运用英语学习专业的能力，很多情况由于认知和文化的原因，即使获取了这样的书籍，其学习过程也异常困难导致半途而废，更不用说获得读书的乐趣了。
+本Web应用系统试图探索和解决上面的问题，系统的设计需求分析如下：1、推荐介绍在开发者社区奉为经典一些书籍，用以开启中国大学生对计算机科学与技术学习之门；2、分享与计算机相关的原版英语优质的学习资源；3、以休闲的方式帮助年轻人提升对世界的认知；4、系统可利用免费的Web服务，能方便地用移动端设备使用；5、系统UI逻辑结构清晰，操作流畅，通过高质量的文字、图片、音视频，有效地展示教学信息媒体。
+4.2 **应用概要设计和 HTML内容建模
+运行本应用为满足Web理念的“可获取性”，因此按按移动端展开UI设计，效果较好的在竖屏显示，布局从上至下分别为：header区域，展现书名 、nav区域，展现章节导航 、main区域，展现当前书的概况 、footer区域，用于系统的信息提示和动态。
+其中main区域：
+4.3 基于JSON的数据结构设计
+未完待续
+4.4 基于CSS的响应式的UI设计
+未完待续
+5. **Web应用的功能层代码实现
+未完待续
+5.1 构建应用的底层的全局函数和变量
+未完待续
+5.2 构建应用的性能分析模型
+未完待续
+5.3 构建应用UI
+未完待续
+5.5 代码组织和重构
+未完待续
+6. **应用的测试和性能优化
+未完待续
+6.1 在移动端运行测试UI
+未完待续
+主要测试屏幕宽度小于高度的设备，如手机（IPhone、华为、荣耀、小米）、平板（Ipad、其他）
+未完待续
+6.2 在桌面电脑运行测试UI
+主要测试屏幕宽度大于高度的设备，如台式电脑和平板
+未完待续
+6.3 对设备的计算性能和渲染性能的测试
+未完待续
+6.4 应用在通过移动、电信、联通三大国内网络环境的测试总结
+未完待续
+6.5 用异步技术和递归算法实现性能优化
+未完待续
+7. 总结与展望
+未完待续
+7.1 开发总结
+未完待续
+7.2 不足之处
+未完待续
+7.3 展望未来
+未完待续
+8. 参考文献
+[1] 教育部. 教育部关于印发《本科毕业论文（设计）抽检办法（试行）》的通知.[EB/OL]. https://www.gov.cn/zhengce/zhengceku/2021-01/07/content_5577651.htm . 2020.12.24
+[2] W3C. W3C's history. W3C Community. [EB/OL]. https://www.w3.org/about/. 2023.12.20
+[3] Matti Tedre, Peter J.Denning. Computational Thinking, A Professional and Historical Perspective. Computational Thinking in Education A Pedagogical Perspective[C]. Routledge Taylor & Francis Group.2022:1-17
+[4] Behrouz Forouzan. Foundations of Computer Science[M](4th Edition). Cengage Learning EMEA,2018
+[5] Martina Seidl, Marion Scholz, et al. UML @ Classroom An Introduction to Object-Oriented Modeling[M]. Springer International Publishing Switzerland 2015
+[6] Douglas E. Comer. The Internet Book[M](Fifth Edition). CRC Press Taylor & Francis Group,2019
+[7] John Dean,PhD. Web programming with HTML5,CSS,and JavaScript[M].  Jones & Bartlett Learning,LLC,2019
+[8] mozilla. Resources for Developers, by Developers. [EB/OL]. https://developer.mozilla.org/en-US/ 2023.12
